@@ -11,7 +11,13 @@
 	<li>실수, 문자</li>
 	<li>입력</li>
 </ul>
-
+<p>3월 27일 진도</p>
+<ul>
+	<li>char</li>
+	<li>sizeof</li>
+	<li>비트 연산자</li>
+	<li>반복문 - while</li>
+</ul>
 
 
 
