@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
-입력한 숫자 개수를 입력 받은 후 
+입력한 숫자 개수를 입력 받은 후
 
 해당 개수만큼 숫자를 입력받아서 입력 받은 숫자들의 평균을 출력, 단 평균 값은 소수점까지 나타내시오.
 
@@ -16,7 +16,8 @@
 입력하신 숫자들의 평균 : 10.66666
 */
 int main(void) {
-	int n, total = 0, i,num;
+	int n, i, num;
+	double total = 0.0;
 
 	printf("입력 받을 숫자 개수 입력 : ");
 	scanf_s("%d", &n);
@@ -26,7 +27,7 @@ int main(void) {
 		scanf_s("%d", &num);
 		total += num;
 	}
-	printf("입력하신 숫자들의 평균 : %g\n",(double) total / n);
+	printf("입력하신 숫자들의 평균 : %g\n", total / n);
 	return 0;
 }
 
