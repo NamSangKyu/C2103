@@ -30,4 +30,10 @@
 	<li>break, continue</li>
 	<li>switch</li>
 </ul>
+<p>4월 4일 진도</p>
+<ul>
+	<li>삼항연산자</li>
+	<li>함수</li>
+	<li>메모리 영역(지역변수, 전역변수, static 변수, register 변수)</li>
+</ul>
 
