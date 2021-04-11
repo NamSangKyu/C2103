@@ -26,7 +26,6 @@ int main(void) {
 	}
 	printf("\n");
 
-
 	free(arr);//동적할당한 메모리 해제
 	
 	for (i = 0; i < size; i++) {
